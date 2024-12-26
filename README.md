@@ -1,35 +1,22 @@
-# front-copao
+# Sistema de Gerenciamento para o Copão (2024)
 
-This template should help get you started developing with Vue 3 in Vite.
+Este repositório foi criado como parte do projeto desenvolvido para a **SEPE 2024** (Semana de Ensino, Pesquisa e Extensão do IFC Araquari). O objetivo principal é oferecer uma solução digital para gerenciar o **Copão**, um campeonato esportivo interno, otimizando a experiência de alunos e organizadores.
 
-## Recommended IDE Setup
+## Recursos / Objetivos
+O sistema proposto busca resolver desafios enfrentados na organização e acompanhamento do campeonato, permitindo:
+- **Gerenciamento de Inscrições**: Facilitar o registro de equipes participantes.
+- **Acompanhamento de Jogos**: Disponibilizar informações atualizadas sobre os jogos, incluindo datas, horários e resultados.
+- **Controle de Dados**: Oferecer aos administradores ferramentas para gerenciar informações do campeonato de forma eficiente.
+- **Otimização da Comunicação**: Melhorar a interação entre alunos, organizadores e público interessado.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Tecnologias Utilizadas
+O projeto utiliza tecnologias modernas para garantir eficiência e usabilidade:
+- **Vue.js 3**: Framework JavaScript para desenvolvimento da interface do usuário.
+- **Pinia**: Pinia é uma biblioteca de armazenamento para Vue, que permite compartilhar um estado entre componentes/páginas.
+- **PWA**: PWA é a sigla para Progressive Web App, ou Aplicação Web Progressiva, uma tecnologia que combina as melhores características de sites e aplicativos móveis.
 
-## Customize configuration
+## Notas
+- Este projeto foi desenvolvido com foco acadêmico e pode não seguir todas as melhores práticas de desenvolvimento.
+- Embora funcional, ele é voltado para fins de aprendizado e não representa uma solução comercial final.
+- Este repositório é uma cópia do [repositório original](https://github.com/dudug05/sepe-copao), configurada para deploy no Vercel.
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```

@@ -18,5 +18,5 @@ O projeto utiliza tecnologias modernas para garantir eficiência e usabilidade:
 ## Notas
 - Este projeto foi desenvolvido com foco acadêmico e pode não seguir todas as melhores práticas de desenvolvimento.
 - Embora funcional, ele é voltado para fins de aprendizado e não representa uma solução comercial final.
-- Este repositório é uma cópia do [repositório original](https://github.com/dudug05/sepe-copao), configurada para deploy no Vercel.
+- Este fork foi criado a partir do projeto original da [SEPE](https://github.com/LucasLiebl/copao-frontend) 2024 com o objetivo de continuar o projeto e compartilhar minhas implementações.
 

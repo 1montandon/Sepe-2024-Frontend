@@ -4,9 +4,9 @@ Este repositório foi criado como parte do projeto desenvolvido para a **SEPE 20
 
 ## Recursos / Objetivos
 O sistema proposto busca resolver desafios enfrentados na organização e acompanhamento do campeonato, permitindo:
-- **Gerenciamento de Inscrições**: Facilitar o registro de equipes participantes.
 - **Acompanhamento de Jogos**: Disponibilizar informações atualizadas sobre os jogos, incluindo datas, horários e resultados.
-- **Controle de Dados**: Oferecer aos administradores ferramentas para gerenciar informações do campeonato de forma eficiente.
+- **Análise de Dados:** Permitir a análise profunda dos dados do campeonato através de ferramentas de visualização.
+- **Controle de Dados:** Oferecer aos administradores ferramentas para gerenciar informações do campeonato de forma eficiente.
 - **Otimização da Comunicação**: Melhorar a interação entre alunos, organizadores e público interessado.
 
 ## Tecnologias Utilizadas

@@ -7,6 +7,13 @@
   margin: 0;
   font-weight: normal;
 }
+:root{
+  --black: #000000;
+  --dark-grey: #161616;
+  --mid-grey: #1E1E1E;
+  --light-grey: #757575;
+  --white: #FFFFFF;
+}
 
 body {
   margin: 0;
@@ -19,5 +26,5 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #161616;
+  background-color: var(--dark-grey);
 }

@@ -70,7 +70,6 @@ const user = computed(() => authStore.user);
        </router-link>
 
     <router-link v-else to="/login" class="loginBorder">
-      <img src="https://i.ibb.co/kmyjjy3/Default-pfp-svg.png" alt="">
       Sing In
     </router-link>
   </header>  
@@ -94,29 +93,22 @@ const user = computed(() => authStore.user);
   }
 }
 .loginBorder{
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  background-color: #313131;
-  width: 8%;
-  height: 70%;
-  border-radius: 20px;
+  all:unset;
+  padding: 0.4% 1% 0.4% 1%;
+  border-radius: 0.9rem;
+  background-color: var(--white);
   margin-left: auto;
-  margin-right: 2%;
-  color: white;
-  text-decoration: none;
-  font-size: 1.2em;
-  img{
-    border-radius: 50%;
-    width: 30%;
-  }
+  font-size: 1rem;
+  color: var(--black);
+  cursor: pointer;
+  font-weight: 700;
 }
 header {
   display: flex;
-  background-color: #1E1E1E;
-  height: 111px;
+  background-color: var(--mid-grey);
+  height: 110px;
   width: 100%;
-  padding: 20px;
+  padding: 1.25rem;
   align-items: center;
 }
 
@@ -132,13 +124,13 @@ header {
 
 .nav-links {
   display: flex;
-  gap: 40px;
+  gap: 2.5rem;
   margin-left: 40px;
 
 }
 .nav-admin{
   display: flex;
-  gap: 40px;
+  gap: 2.5rem;
   margin-left: auto;
 
 }
@@ -146,11 +138,11 @@ header {
 .nav-item {
   color: #757575;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 1.125rem;
   position: relative;
   display: flex;
   align-items: center;
-  gap: 5px;
+  gap: 0.3rem;
   cursor: pointer;
   transition: all .1s;
 }
@@ -164,10 +156,10 @@ header {
 .nav-item-select::after {
   content: '';
   position: absolute;
-  bottom: -42px;
+  bottom: -40px;
   left: 0;
   width: 100%;
-  height: 4px;
+  height: 0.5vh;
   background-color: white;
   border-radius: 10px 10px 0px 0px;
   transition: all .2s;
